@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mpchain APIのcreate_sendを実行する【JavaScript】</title>
+<meta name="description" content="mpchain APIのcreate_sendを実行する【JavaScript】">
+<meta name="author" content="ytyaru">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">
+<link rel="icon" href="asset/image/avator.png">
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/mpchain.js"></script>
+<script src="js/throttle.js"></script>
+<!--<script src="js/observable.js"></script>-->
+<script src="js/main.js"></script>
+</head>
+<body>
+    <h1>mpchain APIのcreate_sendを実行する【JavaScript】</h1>
+    <table>
+    <tr><th>From</th><td><input id="from" value="MEHCqJbgiNERCH3bRAtNSSD9uxPViEX1nu"></td></tr>
+    <tr><th>To</th><td><input id="to" value="MEHCqJbgiNERCH3bRAtNSSD9uxPViEX1nu"></td></tr>
+    <tr><th>Quantity</th><td><input id="quantity" type="number" min="0" value="11411400"></td></tr>
+    <tr><th>Fee/KB</th><td><input id="fee-per-kb" type="number" min="0" max="200" value="10"></td></tr>
+    </table>
+    <textarea id="result"></textarea>
+    </body>
+</html>
