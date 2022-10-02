@@ -11,11 +11,13 @@ mpchain APIでcreate_sendを実行する【JavaScript】
 
 [![画像][]][DEMO]
 
-[DEMO]:
+[DEMO]:https://ytyaru.github.io/Html.mpchain.CreateSned.20221002110114/
 [リポジトリ]:Html.mpchain.SreateSned.20221002110114
-[画像]:
+[画像]:https://github.com/ytyaru/Html.mpchain.CreateSned.20221002110114/blob/master/memo/eye-catch.png?raw=true
 
-　実際に支払われるわけではない。トランザクション情報を作成するだけ。HTMLのinput要素値から[create_send][]へ引数を渡して実行結果のJSONを表示する。
+　トランザクション情報を作成する。HTMLのinput要素値から[create_send][]へ引数を渡して実行結果のJSONを表示する。
+
+　実際に支払われるわけではない。好きなように試せる。
 
 # 実行
 
