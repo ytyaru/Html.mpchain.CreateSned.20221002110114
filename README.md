@@ -1,16 +1,12 @@
 [ja](./README.ja.md)
 
-# mpchain.SreateSned
+# mpchain.CreateSned
 
-Execute create_send of mpchain API [JavaScript]
+Call [create_send][] of [counterParty API][] from [mpchain API][] using JavaScript [fetch][].
 
 # DEMO
 
-* [DEMO](https://ytyaru.github.io/Html.mpchain.SreateSned.20221002110114/)
-
-# Features
-
-* sales point
+* [DEMO](https://ytyaru.github.io/Html.mpchain.CreateSned.20221002110114/)
 
 # Requirement
 
@@ -27,19 +23,15 @@ Linux raspberrypi 5.10.103-v7l+ #1529 SMP Tue Mar 8 12:24:00 GMT 2022 armv7l GNU
 # Installation
 
 ```sh
-git clone https://github.com/ytyaru/Html.mpchain.SreateSned.20221002110114
+git clone https://github.com/ytyaru/Html.mpchain.CreateSned.20221002110114
 ```
 
 # Usage
 
 ```sh
-cd Html.mpchain.SreateSned.20221002110114/src
-./run.sh
+cd Html.mpchain.CreateSned.20221002110114/src
+./server.sh
 ```
-
-# Note
-
-* important point
 
 # Author
 
